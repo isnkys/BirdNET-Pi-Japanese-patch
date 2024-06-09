@@ -11,11 +11,12 @@ Icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from 
 </p>
 
 ## このフォークについて
-Daily Plotの種名が日本語の場合、文字化けを起こすのでフォントの設定を変更しました。一時的な処置なので今後も修正いたします。
+データーベースの種名が日本語の場合、Daily plotの種名が文字化けを起こすのでフォントの設定を変更しました。一時的な処置のため今後も修正いたします。
 
 そのほかの情報は以下のレポジトリを参照して下さい。
 
 [achtzuster/BirdNET-Pi](https://github.com/Nachtzuster/BirdNET-Pi)
+
 [mcguirepr89/BirdNET-Pi](https://github.com/mcguirepr89/BirdNET-Pi)
 
 ## はじめに
@@ -43,5 +44,8 @@ curl -s https://raw.githubusercontent.com/isnkys/BirdNET-Pi-Japanese-patch/main/
 BirdNET-Piは、同じネットワーク上のウェブブラウザからアクセス可能です：
 - http://birdnetpi.local 
 - デフォルトユーザー名：birdnet
-- パスワードはデフォルトでは空です。「ツール」>「設定」>「詳細設定」で設定してください。
+- パスワードはデフォルトでは空です。「Tool」>「Settings」>「Advanced settings」で設定してください。
+
+## 種名の日本語化
+- デフォルトでは英語です。「Tool」>「Settings」>「Localization」で 「Database Language:」を「Japanese」設定してください。
 
