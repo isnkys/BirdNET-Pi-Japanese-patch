@@ -12,8 +12,6 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import rcParams
 from matplotlib.colors import LogNorm
-import matplotlib_fontja
-
 
 from utils.helpers import DB_PATH
 
@@ -157,7 +155,7 @@ def load_fonts():
     for font in font_manager.findSystemFonts(font_dir, fontext='ttf'):
         font_manager.fontManager.addfont(font)
     # Set font family globally
-    rcParams['font.family'] = 'IPAexGothic'
+    rcParams['font.family'] = 'Noto Sans CJK JP'
 
 
 def main(daemon, sleep_m):
